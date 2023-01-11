@@ -125,7 +125,7 @@ body
 
 #track-time.active #current-time, #track-time.active #track-length
 {
-    color: #f86d92;
+    color: #ffffff;
     background-color: transparent;
 }
 
@@ -399,17 +399,17 @@ body
                 <div id="player-controls">
                     <div class="control">
                         <div class="button" id="play-previous">
-                            <i class="fas fa-backward"></i>
+                            <i class="fa-light fa-backward"></i>
                         </div>
                     </div>
                     <div class="control">
                         <div class="button" id="play-pause-button">
-                            <i class="fas fa-play"></i>
+                            <i class="fa-light fa-circle-play"></i>
                         </div>
                     </div>
                     <div class="control">
                         <div class="button" id="play-next">
-                            <i class="fas fa-forward"></i>
+                            <i class="fa-light fa-foward"></i>
                         </div>
                     </div>
                 </div>
@@ -435,7 +435,7 @@ body
                 playerTrack.addClass('active');
                 albumArt.addClass('active');
                 checkBuffering();
-                i.attr('class','fas fa-pause');
+                i.attr('class','fa-light fa-circle-pause');
                 audio.play();
             }
             else
@@ -584,7 +584,7 @@ body
             else
             {
                 albumArt.removeClass('buffering');
-                i.attr('class','fa fa-pause');
+                i.attr('class','fa-light fa-circle-pause');
             }
 
             seekBar.width(0);
