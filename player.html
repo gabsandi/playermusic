@@ -389,10 +389,10 @@ body
             <div id="player-content">
                 <div id="album-art">
                     <img src="https://images.genius.com/108a02e6c1881c4c62ddfe85c1f782c3.1000x1000x1.png" class="active" id="_1">
-                    <img src="https://images.genius.com/108a02e6c1881c4c62ddfe85c1f782c3.1000x1000x1.png" id="_2">
-                    <img src="https://images.genius.com/108a02e6c1881c4c62ddfe85c1f782c3.1000x1000x1.png" id="_3">
-                    <img src="https://images.genius.com/108a02e6c1881c4c62ddfe85c1f782c3.1000x1000x1.png" id="_4">
-                    <img src="https://images.genius.com/108a02e6c1881c4c62ddfe85c1f782c3.1000x1000x1.png" id="_5">
+                    <img src="https://i0.wp.com/portalpopmais.com.br/wp-content/uploads/2022/11/WhatsApp-Image-2022-11-09-at-21.04.35.jpeg" id="_2">
+                    <img src="https://pbs.twimg.com/media/FkodEv6XkAE4lqB.jpg" id="_3">
+                    <img src="https://i.ytimg.com/vi/zrV_U-cAQKo/maxresdefault.jpg" id="_4">
+                    <img src="https://akamai.sscdn.co/uploadfile/letras/albuns/e/5/d/2/782311568915369.jpg" id="_5">
                     <div id="buffer-box">Buffering ...</div>
                 </div>
                 <div id="player-controls">
@@ -423,7 +423,7 @@ body
   <script type="text/javascript">
     $(function()
 {
-    var playerTrack = $("#player-track"), bgArtwork = $('#bg-artwork'), bgArtworkUrl, albumName = $('#album-name'), trackName = $('#track-name'), albumArt = $('#album-art'), sArea = $('#s-area'), seekBar = $('#seek-bar'), trackTime = $('#track-time'), insTime = $('#ins-time'), sHover = $('#s-hover'), playPauseButton = $("#play-pause-button"),  i = playPauseButton.find('i'), tProgress = $('#current-time'), tTime = $('#track-length'), seekT, seekLoc, seekBarPos, cM, ctMinutes, ctSeconds, curMinutes, curSeconds, durMinutes, durSeconds, playProgress, bTime, nTime = 0, buffInterval = null, tFlag = false, albums = ['Kick in my head','Me & You','Electro Boy','Home','Proxy (Original Mix)'], trackNames = ['Tove Lo','Alex Skrindo - Me & You','Kaaze - Electro Boy','Jordan Schor - Home','Martin Garrix - Proxy'], albumArtworks = ['_1','_2','_3','_4','_5'], trackUrl = ['https://gabsandi.github.io/playermusic/Tove%20Lo%20-%20Kick%20in%20the%20Head.mp3','https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/1.mp3','https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/3.mp3','https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/4.mp3','https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/5.mp3'], playPreviousTrackButton = $('#play-previous'), playNextTrackButton = $('#play-next'), currIndex = -1;
+    var playerTrack = $("#player-track"), bgArtwork = $('#bg-artwork'), bgArtworkUrl, albumName = $('#album-name'), trackName = $('#track-name'), albumArt = $('#album-art'), sArea = $('#s-area'), seekBar = $('#seek-bar'), trackTime = $('#track-time'), insTime = $('#ins-time'), sHover = $('#s-hover'), playPauseButton = $("#play-pause-button"),  i = playPauseButton.find('i'), tProgress = $('#current-time'), tTime = $('#track-length'), seekT, seekLoc, seekBarPos, cM, ctMinutes, ctSeconds, curMinutes, curSeconds, durMinutes, durSeconds, playProgress, bTime, nTime = 0, buffInterval = null, tFlag = false, albums = ['Kick in the head','Sal','Habla','Mr President','Vai Devagar'], trackNames = ['Tove Lo','Pedro Sampaio & Pabllo Vittar','Its me, Valeria Almeida','Mia Pia','Rosa Neon, BAKA, Djonga'], albumArtworks = ['_1','_2','_3','_4','_5'], trackUrl = ['https://gabsandi.github.io/playermusic/Tove%20Lo%20-%20Kick%20in%20the%20Head.mp3','https://gabsandi.github.io/playermusic/PEDRO%20SAMPAIO,%20Pabllo%20Vittar%20-%20SAL%20(Official%20Video).mp3','https://gabsandi.github.io/playermusic/Habla.mp3','https://gabsandi.github.io/playermusic/Pia%20Mia%20-%20Mr.%20President%20(Official%20Music%20Video).mp3','https://gabsandi.github.io/playermusic/ROSA%20NEON%20feat.%20Djonga%20-%20Vai%20Devagar.mp3'], playPreviousTrackButton = $('#play-previous'), playNextTrackButton = $('#play-next'), currIndex = -1;
 
     function playPause()
     {
